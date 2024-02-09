@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/on-off-button.iml" filepath="$PROJECT_DIR$/.idea/on-off-button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-samples/.idea/react-samples.iml" filepath="$PROJECT_DIR$/../react-samples/.idea/react-samples.iml" />
     </modules>
   </component>
 </project>
