@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {OnOff} from "./OnOff";
 import {Accordion} from "./Accordion";
+import {Rating} from "./Rating";
 
 function App() {
     return (
@@ -9,7 +10,8 @@ function App() {
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
-            <Accordion titleValue={"My Accordion"}/>
+            {/*<Accordion titleValue={"My Accordion"}/>*/}
+            <Rating/>
         </div>
     );
 }
