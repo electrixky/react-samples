@@ -10,8 +10,8 @@ function App() {
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
-            {/*<Accordion titleValue={"My Accordion"}/>*/}
-            <Rating/>
+            <Accordion titleValue={"My Accordion"}/>
+            {/*<Rating/>*/}
         </div>
     );
 }

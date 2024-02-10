@@ -13,8 +13,7 @@ export const Accordion = (props: AccordionPropsType) => {
 
     return (
         <div>
-            <AccordionTitle title={props.titleValue}/>
-            <button onClick={setCollapseHandler}>TOGGLE</button>
+            <AccordionTitle title={props.titleValue} onClick={setCollapseHandler}/>
             {!collapsed && <AccordionBody/>}
         </div>
     );
@@ -22,10 +21,11 @@ export const Accordion = (props: AccordionPropsType) => {
 
 type AccordionTitlePropsType = {
     title: string
+    onClick: ()=>void
 }
 function AccordionTitle(props: AccordionTitlePropsType) {
     return (
-        <h3>-- {props.title} --</h3>
+        <h3 onClick={props.onClick}>-- {props.title} --</h3>
     )
 }
 
